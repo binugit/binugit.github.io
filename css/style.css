@@ -653,3 +653,10 @@ width: 160px;
 	-webkit-transform: translate3d(0,150%,0);
 	transform: translate3d(0,150%,0);
 }
+.map-pin{
+color:#00ad5f;
+}
+.map-img{
+	height:50px;
+	width: 50px;
+}
