@@ -660,3 +660,16 @@ color:#00ad5f;
 	height:50px;
 	width: 50px;
 }
+.brandsContainer{
+	width:50%;
+	margin-left:10%;
+	margin-top:5%;
+}
+.brands-td1{
+	font-size: 20px !important;
+}
+.brands-td2{
+	font-family: Arial !important;
+	font-size: 13px !important;
+	text-align: left!important;
+}
