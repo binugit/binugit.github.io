@@ -1,660 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Trinfy Racketeers | Welcome</title>
-
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/reset.css">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-	<link href="css/timeline.css" rel="stylesheet">
-	<link href="css/table.css" rel="stylesheet">
-	
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-	<style>
-		@font-face {
-		font-family: 'BebasNeueRegular';
-		src: url('fonts/bebasneue-webfont.eot');
-		src: url('fonts/bebasneue-webfont.eot?#iefix')
-			format('embedded-opentype'), url('fonts/bebasneue-webfont.woff')
-			format('woff'), url('fonts/bebasneue-webfont.ttf') format('truetype'),
-			url('fonts/bebasneue-webfont.svg#BebasNeueRegular') format('svg');
-		font-weight: normal;
-		font-style: normal;
-		}
-		@font-face {
-		font-family: 'Roboto';
-		src: url('fonts/robotocondensed-regular-webfont.eot');
-		src: url('fonts/robotocondensed-regular-webfont.eot?#iefix')
-			format('embedded-opentype'),
-			url('fonts/robotocondensed-regular-webfont.woff2') format('woff2'),
-			url('fonts/robotocondensed-regular-webfont.woff') format('woff'),
-			url('fonts/robotocondensed-regular-webfont.ttf') format('truetype'),
-			url('fonts/robotocondensed-regular-webfont.svg#oswaldlight')
-			format('svg');
-		font-weight: normal;
-		font-style: normal;
-       }
-	</style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page With Light/Dark Mode</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- NAVIGATION -->
+    <main>
+      <div class="big-wrapper light">
+        <img src="./img/shape.png" alt="" class="shape" />
 
-      <div id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="#" class="navbar-brand">TRINFY RACKETEERS WEBSITE</a>
+        <header>
+          <div class="container">
+            <div class="logo">
+              <img src="./img/logo.png" alt="Logo" />
+              <h3>Danvo</h3>
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#tournaments">Tournaments</a></li>
-					<li><a href="#upcomingEvents">Upcoming Events</a></li>
-					<li><a href="#shops">Shops</a></li> 
-					<li><a href="#trends">BWF Ranking</a></li>                    
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+
+            <div class="links">
+              <ul>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#" class="btn">Sign up</a></li>
+              </ul>
             </div>
+
+            <div class="overlay"></div>
+
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </header>
+
+        <div class="showcase-area">
+          <div class="container">
+            <div class="left">
+              <div class="big-title">
+                <h1>Future is here,</h1>
+                <h1>Start Exploring now.</h1>
+              </div>
+              <p class="text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Delectus eius distinctio odit, magni magnam qui ex perferendis
+                vitae!
+              </p>
+              <div class="cta">
+                <a href="#" class="btn">Get started</a>
+              </div>
+            </div>
+
+            <div class="right">
+              <img src="./img/person.png" alt="Person Image" class="person" />
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-area">
+          <div class="container">
+            <button class="toggle-btn">
+              <i class="far fa-moon"></i>
+              <i class="far fa-sun"></i>
+            </button>
+          </div>
         </div>
       </div>
+    </main>
 
-      <!-- HEADER -->
-    <div id="header" class="header">
-        <div class="container">
-            <div class="row">
-				<div class="col-lg-7 col-md-6 wow bounceInRight" data-wow-delay="0.5s" >
-                </div>
-                <div class="col-lg-5 col-md-6 wow bounceInLeft" data-wow-delay="0.5s">
-				    <a class="link link--ilin" href="#"><span class="span1">TRINFY</span>&nbsp;<span class="span2">RACKETEERS</span></a>
-                    <p>[TRINFY RACKETEERS is the Badminton Club of Trivandrum INFOSYS.The Club consists of more than 300 members.
-					This is a dummy place holder.This is a dummy place holder.This is a dummy place holder.This is a dummy place holder.
-					This is a dummy place holder.This is a dummy place holder.This is a dummy place holder.This is a dummy place holder.
-					TRINFY_RACKETEERS_CORE....TRINFY_RACKETEERS]
-					</p>
-					<p>[TRINFY RACKETEERS is the Badminton Club of Trivandrum INFOSYS.The Club consists of more than 300 members.
-					This is a dummy place holder.This is a dummy place holder.This is a dummy place holder.This is a dummy place holder.
-					This is a dummy place holder.This is a dummy place holder.This is a dummy place holder.This is a dummy place holder.
-					TRINFY_RACKETEERS_CORE....TRINFY_RACKETEERS]
-					</p>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- JavaScript Files -->
 
-<!-- TOURNAMENTS -->
-
-    <div id="tournaments" class="tournaments">
-        <div class="container">
-            <h2 class="wow fadeInUp">Tournaments</h2>
-            <div id="row">
-                <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay=".6s">
-					<section class="cd-section">
-						<div class="photo1"></div>
-						<div class="cd-modal-action">
-							<a href="#0" class="btn" data-type="modal-trigger">SMASH IT</a>
-							<span class="cd-modal-bg"></span>
-						</div> 
-						<div class="cd-modal">
-							<div class="cd-modal-content">					   
-							   <div class="table100 ver3 m-b-110">
-										<table>
-											<tr class="row100 head">
-												<th colspan="3" class="thead">SMASHIT RESULTS</th>
-											</tr>
-											<tr class="row100 head">
-												<th class=" ">CATEGORY</th>
-												<th class=" ">YEAR</th>
-												<th class=" ">WINNER</th>
-											</tr>
-											<tr  class="row100 body">
-													<td style="border-bottom:1px solid green" rowspan="6" class=" ">Mens' Singles</td>
-													<td class=" ">2011</td>
-													<td class=" ">NEERAJ</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2012</td>
-													<td class=" ">BINU JAMES</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2013</td>
-													<td class=" ">AMEEN SHAHID</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2014</td>
-													<td class=" ">VISHAL VILAS</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2015</td>
-													<td class=" ">BINU JAMES</td>
-											</tr>
-											<tr style="border-bottom:1px solid green" class="row100 body">
-													<td class=" ">2016</td>
-													<td class=" ">Donald D S</td>
-											</tr >
-											<tr class="row100 body">
-													<td rowspan="6" class=" ">Mens' Doubles</td>
-													<td class=" ">2011</td>
-													<td class=" ">Donald D S</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2012</td>
-													<td class=" ">Donald D S</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2013</td>
-													<td class=" ">Donald D S</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2014</td>
-													<td class=" ">Donald D S</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2015</td>
-													<td class=" ">Donald D S</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2016</td>
-													<td class=" ">Donald D S</td>
-											</tr>
-										</table>
-
-								</div>
-							</div>
-						</div>
-						<a href="#0" class="cd-modal-close">Close</a>
-					</section>
-					<section class="cd-section">
-						<div class="photo2"></div>
-						<div class="cd-modal-action">
-							<a href="#0" class="btn" data-type="modal-trigger">SPIRIT</a>
-							<span class="cd-modal-bg"></span>
-						</div> 
-						<div class="cd-modal">
-							<div class="cd-modal-content">
-							   <div class="table100 ver3 m-b-110">
-										<table>
-											<tr class="row100 head">
-												<th colspan="3" class="thead">SPIRIT RESULTS</th>
-											</tr>
-											<tr class="row100 head">
-												<th class=" ">CATEGORY</th>
-												<th class=" ">YEAR</th>
-												<th class=" ">WINNER</th>
-											</tr>
-											<tr  class="row100 body">
-													<td style="border-bottom:1px solid green" rowspan="6" class=" ">Mens' Singles</td>
-													<td class=" ">2011</td>
-													<td class=" ">NEERAJ</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2012</td>
-													<td class=" ">BINU JAMES</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2013</td>
-													<td class=" ">AMEEN SHAHID</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2014</td>
-													<td class=" ">VISHAL VILAS</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2015</td>
-													<td class=" ">BINU JAMES</td>
-											</tr>
-											<tr style="border-bottom:1px solid green" class="row100 body">
-													<td class=" ">2016</td>
-													<td class=" ">Donald D S</td>
-											</tr >
-											<tr class="row100 body">
-													<td rowspan="6" class=" ">Mens' Doubles</td>
-													<td class=" ">2011</td>
-													<td class=" ">Donald D S</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2012</td>
-													<td class=" ">Donald D S</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2013</td>
-													<td class=" ">Donald D S</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2014</td>
-													<td class=" ">Donald D S</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2015</td>
-													<td class=" ">Donald D S</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2016</td>
-													<td class=" ">Donald D S</td>
-											</tr>
-										</table>
-
-								</div>
-							</div>
-						</div>
-						<a href="#0" class="cd-modal-close">Close</a>
-					</section>
-					</div>
-					<div class="col-lg-3 col-md-3 wow fadeInLeft">    
-					</div>
-					<div class="col-lg-3 col-md-3 wow fadeInLeft">    
-					</div>
-					<div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="0.4s">
-					<section class="cd-section">
-						<div class="photo3"></div>
-						<div class="cd-modal-action">
-							<a href="#0" class="btn" data-type="modal-trigger">TECHNOPARK TOURNAMENT</a>
-							<span class="cd-modal-bg"></span>
-						</div> 
-						<div class="cd-modal">
-							<div class="cd-modal-content">
-							  <div class="table100 ver3 m-b-110">
-										<table>
-											<tr class="row100 head">
-												<th colspan="3" class="thead">TECHNOPARK TOURNAMENT RESULTS</th>
-											</tr>
-											<tr class="row100 head">
-												<th class=" ">CATEGORY</th>
-												<th class=" ">YEAR</th>
-												<th class=" ">WINNER</th>
-											</tr>
-											<tr  class="row100 body">
-													<td style="border-bottom:1px solid green" rowspan="6" class=" ">Mens' Singles</td>
-													<td class=" ">2011</td>
-													<td class=" ">NEERAJ</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2012</td>
-													<td class=" ">BINU JAMES</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2013</td>
-													<td class=" ">AMEEN SHAHID</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2014</td>
-													<td class=" ">VISHAL VILAS</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2015</td>
-													<td class=" ">BINU JAMES</td>
-											</tr>
-											<tr style="border-bottom:1px solid green" class="row100 body">
-													<td class=" ">2016</td>
-													<td class=" ">Donald D S</td>
-											</tr >
-											<tr class="row100 body">
-													<td rowspan="6" class=" ">Mens' Doubles</td>
-													<td class=" ">2011</td>
-													<td class=" ">Donald D S</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2012</td>
-													<td class=" ">Donald D S</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2013</td>
-													<td class=" ">Donald D S</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2014</td>
-													<td class=" ">Donald D S</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2015</td>
-													<td class=" ">Donald D S</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2016</td>
-													<td class=" ">Donald D S</td>
-											</tr>
-										</table>
-
-								</div>
-							</div>
-						</div>
-						<a href="#0" class="cd-modal-close">Close</a>
-					</section>
-					<section class="cd-section">
-						<div class="photo4"></div>
-						<div class="cd-modal-action">
-							<a href="#0" class="btn" data-type="modal-trigger">INTER DC TOURNAMENT</a>
-							<span class="cd-modal-bg"></span>
-						</div> 
-						<div class="cd-modal">
-							<div class="cd-modal-content">
-							 <div class="table100 ver3 m-b-110">
-										<table>
-											<tr class="row100 head">
-												<th colspan="3" class="thead">INTER DC TOURNAMENT RESULTS</th>
-											</tr>
-											<tr class="row100 head">
-												<th class=" ">CATEGORY</th>
-												<th class=" ">YEAR</th>
-												<th class=" ">WINNER</th>
-											</tr>
-											<tr  class="row100 body">
-													<td style="border-bottom:1px solid green" rowspan="6" class=" ">Mens' Singles</td>
-													<td class=" ">2011</td>
-													<td class=" ">NEERAJ</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2012</td>
-													<td class=" ">BINU JAMES</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2013</td>
-													<td class=" ">AMEEN SHAHID</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2014</td>
-													<td class=" ">VISHAL VILAS</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2015</td>
-													<td class=" ">BINU JAMES</td>
-											</tr>
-											<tr style="border-bottom:1px solid green" class="row100 body">
-													<td class=" ">2016</td>
-													<td class=" ">Donald D S</td>
-											</tr >
-											<tr class="row100 body">
-													<td rowspan="6" class=" ">Mens' Doubles</td>
-													<td class=" ">2011</td>
-													<td class=" ">Donald D S</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2012</td>
-													<td class=" ">Donald D S</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2013</td>
-													<td class=" ">Donald D S</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2014</td>
-													<td class=" ">Donald D S</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2015</td>
-													<td class=" ">Donald D S</td>
-											</tr>
-											<tr class="row100 body">
-													<td class=" ">2016</td>
-													<td class=" ">Donald D S</td>
-											</tr>
-										</table>
-
-								</div>
-							</div>
-						</div>
-						<a href="#0" class="cd-modal-close">Close</a>
-					</section>
-                </div>            
-            </div>
-        </div>
-    </div>
-	
-<!-- UPCOMING EVENTS -->
-<DIV id="upcomingEvents" class="upcomingEvents">       
-	<DIV class="frst-container content-alternate">         
-		<DIV class="frst-timeline frst-timeline-style-4 frst-alternate">
-			<DIV class="frst-timeline-block frst-timeline-label-block" data-animation="slideInUp">
-			<DIV class="frst-labels frst-start-label">
-			<SPAN>UPCOMING EVENTS 2018</SPAN> 
-			</DIV>
-			</DIV>
-						
-			<DIV class="frst-timeline-block frst-odd-item aqua-blue" data-animation="slideInUp">
-			<DIV class="frst-timeline-img"><SPAN></SPAN> </DIV><!-- frst-timeline-img -->                     
-			<DIV class="frst-timeline-content wow fadeInLeft" data-wow-delay=".2s">
-			<DIV class="frst-timeline-content-inner">
-			<DIV class="side-border">
-			<H2>SPIRIT ANNUAL SPORTS</H2></DIV>
-			<DIV class="icon-section"><I class="fa fa-shield" aria-hidden="true"></I> 
-			</DIV>
-			<H2>Amazing responsive timeline</H2>
-			<P> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis est 
-			sit amet augue aliquam vestibulum. Donec tempus erat in gravida dapibus. Sed 
-			suscipit tempor tellus ut mollis. </P></DIV> 
-			</DIV> 
-			</DIV>
-						
-			<DIV class="frst-timeline-block frst-even-item red">
-			<DIV class="frst-timeline-img"><SPAN></SPAN> </DIV><!-- frst-timeline-img -->                   
-			<DIV class="frst-timeline-content  wow fadeInRight" data-wow-delay=".4s">
-			<DIV class="frst-timeline-content-inner">
-			<DIV class="side-border">
-			<H2>SMASH IT TOURNAMENT</H2></DIV>
-			<DIV class="icon-section" data-wow-delay=".6s"><I class="fa fa-trophy" aria-hidden="true"></I> 
-			</DIV>
-			<H2>Amazing responsive timeline</H2>
-			<P> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis est 
-			sit amet augue aliquam vestibulum. Donec tempus erat in gravida dapibus. Sed 
-			suscipit tempor tellus ut mollis. </P></DIV>
-			</DIV>
-			</DIV> 
-						
-			<DIV class="frst-timeline-block frst-odd-item orange" 
-			data-animation="slideInUp">
-			<DIV class="frst-timeline-img"><SPAN></SPAN> </DIV><!-- frst-timeline-img -->                   
-			<DIV class="frst-timeline-content wow fadeInLeft" data-wow-delay=".4s">
-			<DIV class="frst-timeline-content-inner">
-			<DIV class="side-border">
-			<H2>TECHNOPARK TOURNAMENT</H2></DIV>
-			<DIV class="icon-section"><I class="fa fa-shield" aria-hidden="true"></I> 
-			</DIV>
-			<H2>Amazing responsive timeline</H2>
-			<P> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis est 
-			sit amet augue aliquam vestibulum. Donec tempus erat in gravida dapibus. Sed 
-			suscipit tempor tellus ut mollis. </P></DIV><!-- frst-timeline-content-inner --> 
-			</DIV>
-			</DIV>
-						
-			<DIV class="frst-timeline-block frst-even-item light-green" data-animation="slideInUp">
-			<DIV class="frst-timeline-img"><SPAN></SPAN> </DIV><!-- frst-timeline-img -->                   
-			<DIV class="frst-timeline-content wow fadeInRight" data-wow-delay=".4s">
-			<DIV class="frst-timeline-content-inner">
-			<DIV class="side-border">
-			<H2>INTER DC TOURNAMENT</H2></DIV>
-			<DIV class="icon-section"><I class="fa  fa-trophy " aria-hidden="true"></I> </DIV>
-			<H2>Amazing responsive timeline</H2>
-			<P> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis est 
-			sit amet augue aliquam vestibulum. Donec tempus erat in gravida dapibus. Sed 
-			suscipit tempor tellus ut mollis. </P></DIV>
-			</DIV>
-			</DIV>
-						
-
-		</DIV>
-	</DIV>
-</DIV>
-
-<!-- SHOPS -->
-      
-      <div id="shops" class="shops">
-        <div class="container">
-            <div class="row">
-                <h2 class="wow fadeInUp">Shops</h2>
-                <p class="wow fadeInUp" data-wow-delay="0.4s">Lorem ipsum dummy placeholder</p>
-                    <div class="col-lg-3 col-md-3 wow flipInY" data-wow-delay="0.8s">
-                        <div class="packages">
-                            <h1>Yonex Pro Shop</h1>
-                            <p>Lorem Ipsum messages, and more recently with Desktop</p>
-                            <hr>
-                            <li>PTC Tower</li>
-                            <li>SS Kovil Rd</li>
-                            <li>Thampanoor</li>
-                            <li>Thiruvananthapuram</li>
-                            <li>PH : +91 471 233 6663</li>
-							<li><img class="map-img" src="images/icons/svg/map.svg" alt="Map"></li>
-                        </div>
-                     </div>
-                     <div class="col-lg-3 col-md-3 wow flipInY" data-wow-delay="1.2s">
-                        <div class="packages">
-                            <h1>Sports Hub</h1>
-                            <p>Lorem Ipsum messages, and more recently with Desktop</p>
-                            <hr>
-                            <li>1st Floor</li>
-                            <li>City Plaza</li>
-							<li>Ulloor</li>
-                            <li>Thiruvananthapuram</li>
-                            <li>PH : +91 471 255 3777</li>
-							<li><img class="map-img" src="images/icons/svg/map.svg" alt="Map"></li>
-                        </div> 
-                     </div>
-                    <div class="col-lg-3 col-md-3 wow flipInY" data-wow-delay="1.4s">
-                        <div class="packages">
-                            <h1>Sports Land</h1>
-                            <p>Lorem Ipsum messages, and more recently with Desktop</p>
-                            <hr>
-                            <li>Press Rd</li>
-                            <li>Statue</li>
-                            <li>Pulimoodu</li>
-                            <li>Thiruvananthapuram</li>
-                            <li>PH : +91 471 406 6466</li>
-							<li><img class="map-img" src="images/icons/svg/map.svg" alt="Map"></li>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 wow flipInY" data-wow-delay="1.8s">
-                        <div class="packages">
-                            <h1>Sports Land</h1>
-                            <p>Lorem Ipsum messages, and more recently with Desktop</p>
-                            <hr>
-                            <li>Press Rd</li>
-                            <li>Statue</li>
-                            <li>Pulimoodu</li>
-                            <li>Thiruvananthapuram</li>
-                            <li>PH : +91 471 406 6466</li>
-							<li><img class="map-img" src="images/icons/svg/map.svg" alt="Map"></li>
-                        </div>
-                    </div>
-                    </div>
-            </div>  
-        </div>
-      
-      <!-- TRENDS -->
-      
-      <div id="trends" class="trends">
-        <div class="cotaainer">
-            <div class="row">
-              		<div class="table100 ver3 m-b-110 brandsContainer" style="width:50%;">
-										<table>
-											<tr class="row100 head">
-												<th colspan="3" class="thead">BADMINTON BRANDS</th>
-											</tr>
-											
-											<tr  class="row100 body">
-													<td class="brands-td1">YONEX</td>
-													<td class="brands-td2">Yonex Co., Ltd. (ヨネックス株式会社 Yonekkusu Kabushiki-gaisha) (TYO: 7906) is a Japanese manufacturer of sporting equipment for badminton, golf, and tennis, producing rackets, clubs, shoes, shuttlecocks, tennis balls, and other equipment for those sports.
-													<br>Go to official website <I class="fa fa-external-link" aria-hidden="true"></I></td>
-											</tr>
-											<tr  class="row100 body">
-													<td class="brands-td1">LINING</td>
-													<td class="brands-td2">Li-Ning Company Limited is a Chinese company which makes athletic shoes and sporting goods. The company endorses a number of athletes and teams, both in China and around the world.
-													<br>Go to official website <I class="fa fa-external-link" aria-hidden="true"></I></td>
-											</tr>
-											<tr  class="row100 body">
-													<td class="brands-td1">VICTOR</td>
-													<td class="brands-td2">Yonex Co., Ltd. (ヨネックス株式会社 Yonekkusu Kabushiki-gaisha) (TYO: 7906) is a Japanese manufacturer of sporting equipment for badminton, golf, and tennis, producing rackets, clubs, shoes, shuttlecocks, tennis balls, and other equipment for those sports.
-													<br>Go to official website <I class="fa fa-external-link" aria-hidden="true"></I></td>
-											</tr>
-											<tr  class="row100 body">
-													<td class="brands-td1">ASHAWAY</td>
-													<td class="brands-td2">Yonex Co., Ltd. (ヨネックス株式会社 Yonekkusu Kabushiki-gaisha) (TYO: 7906) is a Japanese manufacturer of sporting equipment for badminton, golf, and tennis, producing rackets, clubs, shoes, shuttlecocks, tennis balls, and other equipment for those sports.
-													<br>Go to official website <I class="fa fa-external-link" aria-hidden="true"></I></td>
-											</tr>
-								</table>
-
-					</div>
-                <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="2s">
-                </div>
-            </div>  
-        </div>
-      </div>
-
-<!-- CONTACT -->
-    <div id="contact" class="contact">
-        <div class="container">
-            <div class="row">
-                <h2 class="wow fadeInUp">Contact</h2>
-                <p class="wow fadeInUp" data-wow-delay="0.4s">Lorem Ipsum dummy contact placeholder</p>
-				<div class="col-lg-1 col-md-1" >
-				</div>
-                <div class="col-lg-6 col-md-6" >
-                    <div class="input-group input-group-lg wow fadeInUp" data-wow-delay="1.2s">
-                        <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-envelope" aria-hidden="true"></i></span>
-                        <input type="text" class="form-control" aria-describedby="sizing-addon1" placeholder="Email Address">
-                    </div>
-					<div class="input-group wow fadeInUp" data-wow-delay="2s">
-                        <textarea name="" id="" cols="120" rows="6" class="form-control"></textarea>
-                    </div>
-                    <button class="btn btn-lg wow fadeInUp" data-wow-delay="2.4s">Submit Your Message</button>
-                </div>
-            </div>
-        </div>
-    </div>
-                                              
-<!--FOOTER-->
-    <div id="footer" class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-4">
-                    <h4>Contact Us</h4>
-                    <p><i class="fa fa-home" aria-hidden="true"></i> 1111 Main Street, Washingto DC, 22222</p>
-                    <p><i class="fa fa-envelope" aria-hidden="true"></i> info@media.com</p>
-                    <p><i class="fa fa-phone" aria-hidden="true"></i> +1 222 222 2222</p>
-                    <p><i class="fa fa-globe" aria-hidden="true"></i> www.media.com</p>
-                </div>
-                <div class="col-lg-4 col-md-4">
-                    <h4>About</h4>
-                    <p><i class="fa fa-square" aria-hidden="true"></i> About Us</p>
-                    <p><i class="fa fa-square" aria-hidden="true"></i> Privacy</p>
-                    <p><i class="fa fa-square" aria-hidden="true"></i> Terms & Conditions</p>
-                </div>
-                <div class="col-lg-4 col-md-4">
-                    <h4>Stay in Touch</h4>
-                    <i class="social fa fa-facebook" aria-hidden="true"></i>
-                    <i class="social fa fa-twitter" aria-hidden="true"></i>
-                    <i class="social fa fa-linkedin" aria-hidden="true"></i>
-                    <i class="social fa fa-pinterest" aria-hidden="true"></i>
-                    <i class="social fa fa-youtube" aria-hidden="true"></i>
-                    <i class="social fa fa-github" aria-hidden="true"></i>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jQuery.js"></script>
-    <script src="js/wow.min.js"></script>
-	<script src="js/main.js"></script>
-	<script src="js/velocity.min.js"></script>
-    <script>
-    new WOW().init();
-    </script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <script src="./app.js"></script>
   </body>
 </html>
-
