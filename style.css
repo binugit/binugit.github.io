@@ -788,3 +788,7 @@ progress {
   -webkit-transition-delay: 0.5s;
   transition-delay: 0.5s;
 }
+
+.certificate {
+  color: #aab4c3;
+}
