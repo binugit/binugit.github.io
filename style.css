@@ -309,6 +309,7 @@ header .container {
 .card-title {
   margin-bottom: 0.75rem;
   line-height: 2;
+  font-family: "Heebo", sans-serif;
 }
 
 .skill-box .list-group {
@@ -754,4 +755,36 @@ progress {
   height: 1em;
   overflow: visible;
   vertical-align: -0.125em;
+}
+
+.skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+.progress-bar-skills {
+  width: 200px;
+  background: #ddd;
+  margin-left: 20px;
+  height: 8px;
+  border-radius: 10px;
+}
+
+.skill-title {
+  font-family: "Heebo", sans-serif;
+  font-weight: bold;
+  font-size: 0.85em;
+}
+
+.progress-bar-skills-color {
+  width: 0%;
+  background: #ddd;
+  height: 100%;
+  border-radius: 10px;
+  -webkit-transition: all 0.7s linear;
+  transition: all 0.7s linear;
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
 }
