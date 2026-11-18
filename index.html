@@ -197,6 +197,63 @@
           </div>
         </div>
 
+        <!-- Shoppable Ad (300x600) -->
+        <div class="ad-area" style="display: flex; justify-content: center; padding: 2rem 0;">
+          <div style="width: 300px; height: 600px;">
+            <div id="sl-ad-holder">
+              <iframe src="https://brand-za.shortlyst.com/cocacola/25311" style="height: 600px; width: 300px; border: 0"></iframe>
+              <script id="sl-click-tracker" style="border: 0" height="1" width="1" language="JavaScript1.1"></script>
+            </div>
+            <script>
+              try {
+                if ('IntersectionObserver' in window) {
+                  var observer = new IntersectionObserver(
+                    function (entries) {
+                      if (entries[0].isIntersecting) {
+                        if (Boolean(navigator?.sendBeacon)) {
+                          var payload = {
+                            publisherId: 'cocacola',
+                            placementId: '25311',
+                            campaignId: '25311',
+                            clientId: Math.random().toString().substring(2) + new Date().getTime().toString(),
+                            origin: 'landing-v3',
+                            data: {
+                            }
+                          }
+                          const origins = document?.location?.ancestorOrigins
+                          if (origins?.length > 0) {
+                            const originsLength = origins.length - 1
+                            payload.data.parentUrl = origins[originsLength]
+                          }
+                          payload.data = JSON.stringify(payload.data)
+                          var payloadString = JSON.stringify(payload)
+                          navigator.sendBeacon('https://mira-za.shortlyst.com/shopalyst-service/v1/mira/actions/AD_VISIBLE', payloadString)
+                          observer.unobserve(document.getElementById('sl-ad-holder'))
+                        }
+                      }
+                    },
+                    { threshold: 0.3 }
+                  )
+                  observer.observe(document.getElementById('sl-ad-holder'))
+                }
+              } catch (err) {}
+            </script>
+            <img src="https://brand-za.shortlyst.com/cocacola/25312?" attributionsrc="" height="1" width="1" alt="" style="border: 0;">
+            <script>
+              var clickTag = 'https://brand-za.shortlyst.com/cocacola/25313?';
+              function trackClick(event) {
+                if (event && event.data && event.data.slMessage) {
+                  var clickTracker = clickTag;
+                  var clickTrackerElemHandle = document.getElementById("sl-click-tracker");
+                  clickTrackerElemHandle.setAttribute("src", clickTracker);
+                  window.removeEventListener("message", trackClick);
+                }
+              }
+              window.addEventListener("message", trackClick);
+            </script>
+          </div>
+        </div>
+
         <div class="bottom-area">
           <div class="container">
             <button class="toggle-btn">
